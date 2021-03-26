@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Percabangan If-Else If-Else|Ganendra Surya Adeva|XI RPL 3</title>
+	</head>
+	
+	<body>
+		<p>Jika masih pagi, Pio akan berubah menjadi burung.</p>
+		<p>Jika sudah siang, Pio akan berubah menjadi manusia.</p>
+		<p>Jika sudah malam, Pio akan berubah menjadi musang.</p>
+		
+		<script>
+			var d = new Date();
+			var time = d.getHours();
+			
+			if (time >= 5 && time <= 10 )
+				{
+					alert ("Waktunya Pio menjadi burung.");
+				}
+			else if(time >= 11 && time <= 18)
+				{
+					alert ("Waktunya Pio menjadi manusia.");
+				}
+			else
+				{
+					alert ("Waktunya Pio menjadi musang.");
+				}
+		</script>
+	</body>
+</html>
