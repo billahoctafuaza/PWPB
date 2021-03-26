@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>While|billah octafuaza|XI RPl 3</title>
+	</head>
+	
+	<body>
+		<h2>Perulangan While yang menampilkan variable X, Y, dan Z berurutan</h2>
+		
+		<p id="while"></p>
+		
+			<script>
+				var variable = ["X", "Y", "Z"];
+				var i = 0;
+				var text = "";
+				
+				while (variable[i])
+					{
+						text += variable[i] + "<br>";
+						i++;
+					}
+					
+				document.getElementById("while").innerHTML = text;
+			</script>
+	</body>
+</html>

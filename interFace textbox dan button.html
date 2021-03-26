@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Textbox, ButtontoAlert, Array|billah
+	|XI RPL 3</title>
+	</head>
+	
+	<body>
+		<input type="text" name="nilai" />
+		<br>
+		<br>
+		<input type="text" name="nilai" />
+		<br>
+		<br>
+		<input type="button" id="ambilnilai" value="Ambil Nilai" onclick="ambilNilai();" />	
+		
+		<script language="javascript" type="text/javascript">
+			function ambilNilai()
+			{
+			var obj1 = document.getElementsByName('nilai')[0];
+			var obj2 = document.getElementsByName('nilai')[1];
+			var n1 = obj1.value;
+			var n2 = obj2.value;
+			
+			alert("Nilai pertama adalah " + n1);
+			alert("Nilai kedua adalah " + n2);
+			}	
+		</script>
+	</body>
+</html>

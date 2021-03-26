@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Do While|billah octafuaza|XI RPL 3</title>
+	</head>
+	
+	<body>
+		<h2>Perulangan Do While yang menampilkan perhitungan mundur dari angka 10 menuju angka 1</h2>
+		<p id="dowhile"></p>
+		
+		<script>
+			var text = "";
+			var i = 10;
+			
+			do
+			{
+				text += "Count down: " + i + "<br>";
+				i--;
+			}
+			while(i > 0);
+			
+			document.getElementById("dowhile").innerHTML = text;
+		</script>
+	</body>
+</html>

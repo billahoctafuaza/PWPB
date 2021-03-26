@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Textbox to Alert|billah|XI RPL 3</title>
+	</head>
+	
+	<body>
+		<p id="tta"></p>
+		
+		<script>
+			function sayHalo()
+			{
+				var nama = document.getElementById('nma').value;
+				alert("Halo, " + nama);
+			}
+		</script>
+		
+		<label>Tulis nama disini</label>
+		<input type="text" id="nma" onchange="sayHalo();"/>
+	</body>
+</html>

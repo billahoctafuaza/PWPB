@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Fungsi|Ganendra Surya Adeva|XI RPL 3</title>
+	</head>
+	
+	<body>
+		<p id="fungsi"></p>
+			<script>
+				function hitungLuasAlas (p, l)
+				{
+						var luas = p * l;
+						return luas;
+				}
+				
+				function hitungVolume (la, t)
+				{
+					var vol = la*t / 2;
+					return vol;
+				}
+				
+				var panjang = 5;
+				var lebar = 3;
+				var tinggi = 4;
+				var luasAlas;
+				var volume;
+				
+				luasAlas = hitungLuasAlas(panjang, lebar);
+				volume = hitungVolume(luasAlas, tinggi);
+				
+				alert("Ini adalah luas alasnya ==> " + luasAlas);
+				alert("Ini adalah volumenya ==> " + volume);
+			</script>
+	</body>
+</html>

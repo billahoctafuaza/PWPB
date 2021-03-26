@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title> For In|billah octafuaza|XI RPL 3</title>
+	</head>
+	
+	<body>
+		<h2>Perulangan For in yang menampilkan text dengan urutan nama depan-nama belakang-umur</h2>
+		
+		<p id="forin"></p>
+		
+			<script>
+				var txt = "";
+				var orang = {fname: "Ganendra", lname: "Surya", usia:16};
+				var x;
+				
+				for (x in orang) 
+					{
+						txt += orang[x] + " ";
+					}
+					
+				document.getElementById("forin").innerHTML = txt;
+			</script>
+	</body>
+</html>
